@@ -16,9 +16,13 @@
     # Test data and resources:
             # src\test\java\resources
 
-# To run the tests (chrome is the default browser, as specified in the config.properties)
-mvn clean install
+# Run tests
 
-# To run the tests in a specific browser
-mvn clean install -Dbrowser=chrome
-mvn clean install -Dbrowser=firefox
+    mvn clean install
+    # chrome is the default browser, as specified in the config.properties
+
+    mvn clean install -Dbrowser=chrome
+    # run the tests in chrome
+
+    mvn clean install -Dbrowser=firefox
+    # run the tests in firefox

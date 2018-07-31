@@ -1,0 +1,8 @@
+searchtext = OOP
+oop-page-url = https://en.wikipedia.org/wiki/OOP
+link-title = Object-oriented programming
+object-oriented-programming-page-url = https://en.wikipedia.org/wiki/Object-oriented_programming
+navigation-box-title = Software engineering
+navigation-box-row-name = Software
+navigation-box-item-name = Grady Booch
+

@@ -8,6 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Base class for all Junit test classes.
+ * Instantiates driver, lifecycle methods for test and configuration
+ */
 public abstract class TestBase {
     private static final Logger logger = LoggerFactory.getLogger(TestBase.class);
     protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();

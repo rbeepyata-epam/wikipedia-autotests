@@ -6,6 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+/**
+ * Factory pattern for fetching desired instance of WebDriver.
+ */
 public class DriverFactory {
     public static WebDriver getDriver(String browser) {
         WebDriver driver;

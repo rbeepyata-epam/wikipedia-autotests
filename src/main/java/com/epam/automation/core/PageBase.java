@@ -8,6 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Base class for all page object classes.
+ * Initialises driver for pages and holds generic page related code
+ */
 public abstract class PageBase {
 	private static final Logger logger = LoggerFactory.getLogger(PageBase.class);
 	

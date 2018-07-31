@@ -9,6 +9,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Wrapper for WebDriver actions
+ */
 public class WebDriverHelper {
     private static final Logger logger = LoggerFactory.getLogger(WebDriverHelper.class);
 

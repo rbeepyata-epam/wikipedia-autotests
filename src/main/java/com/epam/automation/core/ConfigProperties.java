@@ -4,6 +4,9 @@ import com.epam.utilities.PropertyUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Configuration Properties to be used across the framework
+ */
 public abstract class ConfigProperties {
     private static final Logger logger = LoggerFactory.getLogger(ConfigProperties.class);
 	private static final PropertyUtil PROPERTIES_UTIL = new PropertyUtil(".\\src\\main\\resources\\config.properties");
